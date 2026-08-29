@@ -15,6 +15,9 @@ export default {
         'btnwhite': '#FFFFFF',
         'primary': '#2C83BB',
       },
+      spacing: {
+        '1140': '1140px',
+      }
     },
   },
   plugins: [],
