@@ -11,9 +11,9 @@ export default {
         'Raleway': ["Raleway", "sans-serif"],
       },
       colors: {
-        'nevwhite': '#EEF4F9',
-        'btnwhite': '#FFFFFF',
         'primary': '#2C83BB',
+        'nevwhite': '#EEF4F9',
+        'offwhite': '#FFFFFF',
       },
       spacing: {
         '1140': '1140px',
