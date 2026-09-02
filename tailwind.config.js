@@ -7,11 +7,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'Inter': ["Inter", "sans-serif"],
-        'Raleway': ["Raleway", "sans-serif"],
+        'inter': ["Inter", "sans-serif"],
+        'raleway': ["Raleway", "sans-serif"],
+        'roboto': ["Roboto", "sans-serif"],
       },
       colors: {
         'primary': '#2C83BB',
+        'headerbg': '#0D554C',
         'nevwhite': '#EEF4F9',
         'offwhite': '#FFFFFF',
       },

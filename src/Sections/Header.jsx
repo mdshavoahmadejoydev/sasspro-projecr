@@ -9,7 +9,7 @@ import Flex from '../Components/Flex'
 
 const Header = () => {
   return (
-    <header className='bg-primary'>
+    <header className='bg-headerbg'>
       <Container className={`flex justify-between items-center py-[25px]`} >
         <Img src={Headerimg} alt="company logo" className={`w-[148px] h-[24px]`} />
         <Flex className={`items-center`}>
