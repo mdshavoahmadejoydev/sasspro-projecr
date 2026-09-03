@@ -10,8 +10,8 @@ import Flex from '../Components/Flex'
 const Header = () => {
   return (
     <header className='bg-headerbg'>
-      <Container className={`flex justify-between items-center py-[25px]`} >
-        <Img src={Headerimg} alt="company logo" className={`w-[148px] h-[24px]`} />
+      <Container className={`flex justify-between items-center py-25`} >
+        <Img src={Headerimg} alt="company logo" className={`w-148 h-6`} />
         <Flex className={`items-center`}>
           <Flex className={`gap-4`}>
             <Lilist content="Home" icon={true} />
@@ -20,7 +20,7 @@ const Header = () => {
             <Lilist content="Blog"/>
             <Lilist content="Contact"/>
           </Flex>
-          <button className='border border-offwhite rounded-md px-[23px] py-[10px] text-base text-offwhite font-semibold font-inter ml-[35px]  hover:border-red-500 duration-150'>Let's talk</button>
+          <button className='border border-offwhite rounded-md px-23 py-2.5 text-base text-offwhite font-semibold font-inter ml-35  hover:border-red-500 duration-150'>Let's talk</button>
         </Flex>
       </Container>
     </header>
