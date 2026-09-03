@@ -20,7 +20,7 @@ const Header = () => {
             <Lilist content="Blog"/>
             <Lilist content="Contact"/>
           </Flex>
-          <button className='border border-offwhite rounded-md px-[23px] py-[10px] text-base text-offwhite font-samibold font-Inter ml-[35px]  hover:border-red-500 duration-150'>Let's talk</button>
+          <button className='border border-offwhite rounded-md px-[23px] py-[10px] text-base text-offwhite font-semibold font-inter ml-[35px]  hover:border-red-500 duration-150'>Let's talk</button>
         </Flex>
       </Container>
     </header>

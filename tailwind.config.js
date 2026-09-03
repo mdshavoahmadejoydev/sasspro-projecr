@@ -16,9 +16,12 @@ export default {
         'headerbg': '#0D554C',
         'nevwhite': '#EEF4F9',
         'offwhite': '#FFFFFF',
+        'olive': '#495E6C',
+        'deepgreen': '#112F42',
+        'deepgreena': 'rgba(17, 47, 66, 0.10)',
       },
       spacing: {
-        '1140': '1140px',
+        '1170': '1170px',
       }
     },
   },
