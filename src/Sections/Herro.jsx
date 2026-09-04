@@ -8,9 +8,9 @@ import Img from "../Components/Img";
 const herro = () => {
   return (
     <div>
-      <section className="bg-headerbg relative">
+      <section className="bg-headerbg relative overflow-hidden">
         <Container className={`flex justify-between py-150`}>
-          <div>
+          <div className="w-1/2">
             <Ptag className={`font-raleway !font-bold !text-lg`} content="Business & Technologies"/>
 
             <h6 className="font-raleway font-bold text-52 leading-61 w-459 text-offwhite mt-11 mb-11">We help tech companies deliver great software</h6>

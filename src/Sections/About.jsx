@@ -16,7 +16,7 @@ import Aboutcard from '../Components/Aboutcard';
 const About = () => {
   return (
     <section>
-      <Container className={`bg-offwhite p-50 mb-138  shadow-xl`}>
+      <Container className={`bg-offwhite p-50 mb-100  shadow-xl`}>
         <Flex className={`justify-between items-center`}>
           <div>
             <Ptag content={`Who we are`} className={`!font-bold !text-sm !text-primary font-raleway mb-17`}/>
