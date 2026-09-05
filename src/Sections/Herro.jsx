@@ -18,7 +18,7 @@ const herro = () => {
             <Ptag className={`font-roboto w-552 mt-25`} content="Since 1999. For millions of users. We transform businesses with powerful and"/>
             <Ptag className={`font-roboto w-552 mb-25`} content="adaptable digital solutions that satisfy the needs of today and unlock the opportunities of tomorrow."/>
             <div className="h-56 relative mt-11">
-             <input type="text" placeholder="" className="w-full h-full outline-none text-2xl font-raleway  font-semibold px-4 rounded-md"  />
+             <input type="text" placeholder="" className="w-full h-full outline-none text-2xl font-raleway  font-semibold px-4 rounded-md text-olive"  />
              <button className="bg-primary px-6 py-4 rounded-r-md text-base font-raleway text-offwhite font-semibold absolute top-0 right-0">Request for Demo</button>
             </div>
           </div>

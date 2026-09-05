@@ -5,6 +5,10 @@ import About from './Sections/About'
 import Industry from './Sections/Industry'
 import Overview from './Sections/Overview'
 import Engage from './Sections/Engage'
+import Workwith from './Sections/Workwith'
+import Reviews from './Sections/Reviews'
+import Newsletter from './Sections/Newsletter'
+import Article from './Sections/Article'
 
 const App = () => {
   return (
@@ -15,6 +19,10 @@ const App = () => {
       <Industry />
       <Overview />
       <Engage />
+      <Workwith/>
+      <Reviews/>
+      <Newsletter/>
+      <Article/>
     </>
   )
 }
