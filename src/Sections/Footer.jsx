@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="w-4/12">
             <Img src={Headerimg} alt="company logo" className={`w-148 h-6`} />
             <Ptag
-              className={`w-362 mt-27 mb-35`}
+              className={`w-362 mt-27 mb-35 !text-offwhite/80`}
               content={`Orem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst augue amet, luctus quis gravida nulla netus ut platea.`}
             />
             <Flex className={`gap-4`}>
@@ -39,7 +39,7 @@ const Footer = () => {
       </Container>
     </footer>
     <div className='border-t border-olive/95 '>
-      <Ptag className={`bg-seagreen text-center py-27`} content={`© 2021 All Rights Reserved`} />
+      <Ptag className={`bg-seagreen !text-offwhite/70 text-center py-27`} content={`© 2021 All Rights Reserved`} />
     </div>
     </>
   ); 
