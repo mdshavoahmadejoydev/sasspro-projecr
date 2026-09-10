@@ -24,14 +24,8 @@ const Article = () => {
           <Indistrycard src={Articleimg2} title={`Malesuada Fermentum Tortor`} des={`rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr gsfg sdfg asdrfa sadfg afsdgfa sgdf gsdg ssdfg`} showimg={true} proimg={Articlepimg2} proname={`Carter Rosser`} />
           
           <Indistrycard src={Articleimg3} title={`Magna Malesuada`} des={`From romantic getaways to adventurous hikes, find your next...`} showimg={true} proimg={Articlepimg3} proname={`Carter Rosser`} />
-
         </Flex>
-
-      </Container>
-      
-
-      
-      
+      </Container>     
     </section>
   )
 }

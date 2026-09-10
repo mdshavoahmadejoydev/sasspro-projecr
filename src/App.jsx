@@ -9,6 +9,7 @@ import Workwith from './Sections/Workwith'
 import Reviews from './Sections/Reviews'
 import Newsletter from './Sections/Newsletter'
 import Article from './Sections/Article'
+import Priceing from './Sections/Priceing'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Overview />
       <Engage />
       <Workwith/>
+      <Priceing />
       <Reviews/>
       <Newsletter/>
       <Article/>
