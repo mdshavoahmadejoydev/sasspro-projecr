@@ -10,6 +10,7 @@ import Reviews from './Sections/Reviews'
 import Newsletter from './Sections/Newsletter'
 import Article from './Sections/Article'
 import Priceing from './Sections/Priceing'
+import Footer from './Sections/Footer'
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <Reviews/>
       <Newsletter/>
       <Article/>
+      <Footer/>
     </>
   )
 }
