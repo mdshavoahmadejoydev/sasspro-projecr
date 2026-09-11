@@ -21,7 +21,7 @@ const About = () => {
       <Container className={`bg-offwhite lg:p-50 lg:mb-100  shadow-xl`}>
         <Flex className={`w-[100vw] px-4 lg:px-0 lg:pt-0 text-center lg:text-start lg:w-auto flex-col lg:flex-row lg:justify-between lg:items-center`}>
           <div>
-            <Ptag content={`Who we are`} className={`!font-bold !text-sm !text-primary font-raleway lg:mb-17`}/>
+            <Ptag content={`Who we are`} className={`!font-bold !text-sm !text-primary font-raleway pt-[20px] lg:pt-0 lg:mb-17`}/>
             <Title className={`w-auto lg:w-750`} content={`More than 5,000 users around the world are already using STDEV actively`} />
           </div>
           <div>

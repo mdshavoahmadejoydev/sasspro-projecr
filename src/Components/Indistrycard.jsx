@@ -12,8 +12,8 @@ const Indistrycard = ({src, title, des, showimg, proimg, proname}) => {
     <div>
       <div className="w-[320px] lg:w-366 flex justify-center flex-col shadow-2xl rounded-lg">
         <Img src={src} alt={`img`} className={`w-[95%] h-220 m-auto pt-2.5`} />
-        <div className="px-31 pb-31 pt-31">
-          <p className="font-raleway font-bold text-22 text-seagreen mb-5 truncate">
+        <div className="px-31 pb-[20px] lg:pb-31 pt-[14px] lg:pt-31">
+          <p className="font-raleway font-bold text-lg lg:text-22 text-seagreen mb-2 lg:mb-5 truncate">
             {title}
           </p>
 
@@ -39,10 +39,10 @@ const Indistrycard = ({src, title, des, showimg, proimg, proname}) => {
             </Flex>
           )}
 
-          <p className="font-roboto font-normal text-base text-olive mb-6 line-clamp-2">
+          <p className="font-roboto font-normal text-sm lg:text-base text-olive mb-2 lg:mb-6 line-clamp-2">
             {des}
           </p>
-          <p className="font-roboto font-semibold text-base text-primary">
+          <p className="font-roboto font-semibold text-sm lg:text-base text-primary">
             Sea More
             <MdKeyboardArrowRight className="text-2xl  font-bold text-primary inline-block" />{" "}
           </p>
