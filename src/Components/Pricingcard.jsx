@@ -20,7 +20,7 @@ const Pricingcard = ({packagename, price, duration, btntext}) => {
         <Pricingcarditem text={`Access to all premium icons`} />
         <Pricingcarditem text={`A dedicated domain`} />
       </Flex>
-      <Button content={btntext} hover={true} className={`mt-35`} />
+      <Button content={btntext} hover={true} border={true} className={`mt-35`} />
     </div>
   );
 };

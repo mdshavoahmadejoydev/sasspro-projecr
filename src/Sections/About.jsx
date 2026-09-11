@@ -15,7 +15,8 @@ import Aboutcard from '../Components/Aboutcard';
 
 const About = () => {
   return (
-    <section>
+    <section className='relative overflow-hidden'>
+      <div className='absolute -z-10 -inset-[2px] bg-[rgb(13,85,76)] [clip-path:polygon(0%_0%,100%_0%,100%_80%)] '></div>
       <Container className={`bg-offwhite p-50 mb-100  shadow-xl`}>
         <Flex className={`justify-between items-center`}>
           <div>
