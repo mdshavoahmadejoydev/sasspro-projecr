@@ -19,7 +19,7 @@ const Industry = () => {
     <section>
       <Title content={`Industries in focus`} className={`text-center mb-56`}/>
       <Container className={`pb-100`}>
-        <Flex className={`flex-wrap justify-center gap-9`}>
+        <Flex className={`w-[100vw] lg:w-auto flex-col items-center lg:flex-row lg:flex-wrap lg:justify-center gap-9`}>
           <Indistrycard src={Industryimg1} title={`FinTech`} des={`Psum dolor sit amet, consectetur adipiscing elit. Nisi, maecenas orci sit pellentesque eget.`}/>
           
           <Indistrycard src={Industryimg2} title={`Telecom`} des={`Psum dolor sit amet, consectetur adipiscing elit. Nisi, maecenas orci sit pellentesque eget.`}/>

@@ -10,8 +10,8 @@ import Flex from '../Components/Flex'
 const Indistrycard = ({src, title, des, showimg, proimg, proname}) => {
   return (
     <div>
-      <div className="w-366 flex justify-center flex-col shadow-2xl rounded-lg">
-        <Img src={src} alt={`img`} className={`w-346 h-220 m-auto pt-2.5`} />
+      <div className="w-[320px] lg:w-366 flex justify-center flex-col shadow-2xl rounded-lg">
+        <Img src={src} alt={`img`} className={`w-[95%] h-220 m-auto pt-2.5`} />
         <div className="px-31 pb-31 pt-31">
           <p className="font-raleway font-bold text-22 text-seagreen mb-5 truncate">
             {title}
