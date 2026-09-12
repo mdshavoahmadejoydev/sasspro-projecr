@@ -11,10 +11,10 @@ import Title from '../Components/Title'
 
 const Workwith = () => {
   return (
-    <section className='bg-lightgray py-100'>
-      <Title content={`The Product we work with.`} className={`text-center mb-56`} />
+    <section className='bg-lightgray py-10 lg:py-100'>
+      <Title content={`The Product we work with.`} className={`text-center mb-4 lg:mb-56`} />
       <Container>
-        <Flex className={`justity-center gap-9`}>
+        <Flex className={`w-screen lg:auto flex-col items-center lg:flex-row lg:justity-center gap-9`}>
           <Workwithcard src={Workwithimg1} title={`Consulting`} des={`Psum dolor sit amet, consectetur adipiscing elit. Nisi, maecenas orci sit pellentesque eget.`} />
           <Workwithcard src={Workwithimg2} title={`Consulting`} des={`Psum dolor sit amet, consectetur adipiscing elit. Nisi, maecenas orci sit pellentesque eget.`} />
           <Workwithcard src={Workwithimg3} title={`Consulting`} des={`Psum dolor sit amet, consectetur adipiscing elit. Nisi, maecenas orci sit pellentesque eget.`} />

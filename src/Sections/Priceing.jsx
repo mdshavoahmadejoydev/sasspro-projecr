@@ -13,7 +13,7 @@ const Priceing = () => {
   let [change, setChange] = useState(true)
 
   return (
-    <section className="pt-100 pb-75">
+    <section className="pt-10 lg:pt-100 pb-8 lg:pb-75">
       <Title content={`Affordable Pricing`} className={`text-center`} />
       <Container>
         <div>
