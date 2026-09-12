@@ -15,10 +15,10 @@ import Flex from '../Components/Flex'
 
 const Article = () => {
   return (
-    <section className='pt-75 pb-100 bg-lightgray'>
-      <Title content={`Recent News & Articles`} className={`text-center mb-56`}/>
+    <section className='pt-10 lg:pt-75 pb-10 lg:pb-100 bg-lightgray'>
+      <Title content={`Recent News & Articles`} className={`text-center mb-4 lg:mb-56`}/>
       <Container>
-        <Flex className={`justify-center gap-9`}>
+        <Flex className={`flex-col lg:flex-row w-screen lg:w-auto items-center lg:justify-center gap-4 lg:gap-9`}>
           <Indistrycard src={Articleimg1} title={`Where Should I Buy Next?`} des={`From romantic getaways to adventurous hikes, find your next...`} showimg={true} proimg={Articlepimg1} proname={`Carter Rosser`} />
           
           <Indistrycard src={Articleimg2} title={`Malesuada Fermentum Tortor`} des={`rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr gsfg sdfg asdrfa sadfg afsdgfa sgdf gsdg ssdfg`} showimg={true} proimg={Articlepimg2} proname={`Carter Rosser`} />

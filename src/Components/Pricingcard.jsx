@@ -5,7 +5,7 @@ import Pricingcarditem from '../Components/Pricingcarditem'
 
 const Pricingcard = ({packagename, price, duration, btntext}) => {
   return (
-    <div className="bg-lightgray rounded-xl pt-50 px-31 pb-44 w-366">
+    <div className="bg-lightgray rounded-xl pt-50 px-31 pb-44 w-340 lg:w-366">
       <p className="font-raleway text-22 font-bold text-seagreen pb-11">
         {packagename}
       </p>

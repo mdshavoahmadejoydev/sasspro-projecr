@@ -17,19 +17,19 @@ const Priceing = () => {
       <Title content={`Affordable Pricing`} className={`text-center`} />
       <Container>
         <div>
-          <Flex className={`justify-center gap-x-25 items-center my-35`}>
+          <Flex className={`w-screen lg:w-auto justify-center gap-x-25 items-center my-35`}>
             <p className="font-roboto font-normal test-lg">Monthly</p>
             <button
               onClick={() => setChange(!change)}
-              className="w-20 h-10 bg-primary rounded-full p-1"
+              className="w-20 h-8 lg:h-10 bg-primary rounded-full p-1"
             >
               <span
-                className={`block w-8 h-8 bg-white rounded-full ${change ? "ml-auto" : "mr-auto"} `}
+                className={`block w-6 lg:w-8 h-6 lg:h-8 bg-white rounded-full ${change ? "ml-auto" : "mr-auto"} `}
               ></span>
             </button>
             <p className="font-roboto font-normal test-lg">Annualy</p>
           </Flex>
-          <Flex className={`justify-between flex-wrap`}>
+          <Flex className={`w-screen lg:w-auto flex-col gap-6 lg:flex-row items-center lg:justify-between flex-wrap`}>
             {change ? (
               <>
                 <Pricingcard

@@ -18,7 +18,7 @@ const Indistrycard = ({src, title, des, showimg, proimg, proname}) => {
           </p>
 
           {showimg && (
-            <Flex className={`items-center justify-between my-25`}>
+            <Flex className={`flex-col lg:flex-row gap-2 lg:gap-0 lg:items-center lg:justify-between my-25`}>
               <Flex className={`items-center`}>
                 <div className="w-30 h-30 mr-11">
                   <img src={proimg} alt="img" className="w-full h-full"></img>
@@ -29,11 +29,11 @@ const Indistrycard = ({src, title, des, showimg, proimg, proname}) => {
               </Flex>
 
               <Flex className={`items-center gap-2 ml-25`}>
-                <FaCalendarAlt className="text-seagreen"/>
+                <FaCalendarAlt className="text-seagreen/50"/>
 
                 <input
                   type="date"
-                  className="!bg-transparent outline-none border-none font-roboto font-semibold text-seagreen [&::-webkit-calendar-picker-indicator]:hidden"
+                  className="!bg-transparent outline-none border-none font-roboto font-semibold text-seagreen/50 [&::-webkit-calendar-picker-indicator]:hidden"
                 />
               </Flex>
             </Flex>

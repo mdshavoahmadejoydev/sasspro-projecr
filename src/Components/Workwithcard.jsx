@@ -7,7 +7,7 @@ import Img from './Img'
 const Workwithcard = ({src, title, des,}) => {
   return (
     <div>
-      <div className="w-[340px] lg:w-362 flex justify-center flex-col shadow-2xl px-31">
+      <div className="w-340 lg:w-362 flex justify-center flex-col shadow-2xl px-31">
         <Img
           src={src}
           alt={`img`}
