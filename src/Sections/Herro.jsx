@@ -12,13 +12,13 @@ const herro = () => {
       <section className="bg-headerbg lg:relative overflow-hidden  py-10 lg:py-150">
         <Container className={`flex justify-between`}>
           <Flex className={`flex-col lg:flex-row`}>
-            <div className="w-[100vw] px-4 lg:px-0 text-center lg:text-start lg:w-1/2">
+            <div className="w-screen px-4 lg:px-0 text-center lg:text-start lg:w-1/2">
               <Ptag
                 className={`font-raleway !font-bold !text-lg`}
                 content="Business & Technologies"
               />
 
-              <h6 className="font-raleway font-bold text-4xl lg:text-52 leading-[40px] lg:leading-61 w-auto lg:w-459 text-offwhite mt-11 mb-11">
+              <h6 className="font-raleway font-bold text-4xl lg:text-52 leading-10 lg:leading-61 w-auto lg:w-459 text-offwhite mt-11 mb-11">
                 We help tech companies deliver great software
               </h6>
 
@@ -30,7 +30,7 @@ const herro = () => {
                 className={`font-roboto w-auto lg:w-552 mb-25`}
                 content="adaptable digital solutions that satisfy the needs of today and unlock the opportunities of tomorrow."
               />
-              <div className="h-[36px] mx-auto w-[320px] lg:w-full lg:h-56 relative mt-11">
+              <div className="h-9 mx-auto w-320 lg:w-full lg:h-56 relative mt-11">
                 <input
                   type="text"
                   placeholder=""

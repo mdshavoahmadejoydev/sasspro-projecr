@@ -16,16 +16,16 @@ import Aboutcard from '../Components/Aboutcard';
 const About = () => {
   return (
     <section className='relative overflow-hidden'>
-      <div className='absolute -z-10 -inset-[2px] bg-[rgb(13,85,76)] [clip-path:polygon(0%_0%,100%_0%,100%_80%)] '></div>
+      <div className='absolute -z-10 -inset-0.5 bg-[rgb(13,85,76)] [clip-path:polygon(0%_0%,100%_0%,100%_70%)] '></div>
 
       <Container className={`bg-offwhite lg:p-50 lg:mb-100  shadow-xl`}>
-        <Flex className={`w-[100vw] px-4 lg:px-0 lg:pt-0 text-center lg:text-start lg:w-auto flex-col lg:flex-row lg:justify-between lg:items-center`}>
+        <Flex className={`w-screen px-4 lg:px-0 lg:pt-0 text-center lg:text-start lg:w-auto flex-col lg:flex-row lg:justify-between lg:items-center`}>
           <div>
-            <Ptag content={`Who we are`} className={`!font-bold !text-sm !text-primary font-raleway pt-[20px] lg:pt-0 lg:mb-17`}/>
+            <Ptag content={`Who we are`} className={`!font-bold !text-sm !text-primary font-raleway pt-5 lg:pt-0 lg:mb-17`}/>
             <Title className={`w-auto lg:w-750`} content={`More than 5,000 users around the world are already using STDEV actively`} />
           </div>
           <div>
-            <Flex className={`flex-col w-[200px] my-6 lg:my-0 mx-auto items-center px-9 py-31 bg-darkwhite border border-deepgreena`}>
+            <Flex className={`flex-col w-200 my-6 lg:my-0 mx-auto items-center px-9 py-31 bg-darkwhite border border-deepgreena`}>
               <p className='font-inter font-bold text-50 text-deepgreen'>4.8</p>
               <Flex className={`gap-1`}>
                 <RiStarSFill className='text-orange text-2xl font-semibold'/>
@@ -38,8 +38,8 @@ const About = () => {
             </Flex>
           </div>
         </Flex>
-        <div className='w-[100vw] lg:w-auto  border-b border-deepgreena lg:mt-20'></div>
-        <Flex className='flex-col gap-6 items-center  lg:flex-row w-[100vw] lg:w-auto pt-25 pb-6 lg:pb-0 mb-10 lg:mb-0 justify-between'>
+        <div className='w-screen lg:w-auto  border-b border-deepgreena lg:mt-20'></div>
+        <Flex className='lg:flex-row w-screen lg:w-auto pt-25 pb-6 lg:pb-0 mb-10 lg:mb-0 justify-between'>
           <Aboutcard src={About1} title="70+" des="Professionals"/>
           <Aboutcard src={About2} title="22 Years" des="Year of experience"/>
           <Aboutcard src={About3} title="$40+M" des="Fundraised by customers"/>

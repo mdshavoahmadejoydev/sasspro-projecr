@@ -22,7 +22,7 @@ const Overview = () => {
         className={`font-roboto w-auto lg:w-454 text-center !text-olive m-auto mb-4 lg:mb-35 px-4 lg:px-0`}
       />
       <Container>
-        <div className='w-[100vw] px-4 lg:px-0 lg:w-auto'>
+        <div className='w-screen px-4 lg:px-0 lg:w-auto'>
           <Flex
             className={`justify-center gap-3 lg:gap-5 mb-6 lg:mb-56 lg:w-auto`}
           >
