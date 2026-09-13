@@ -18,7 +18,7 @@ const Indistrycard = ({src, title, des, showimg, proimg, proname}) => {
           </p>
 
           {showimg && (
-            <Flex className={`flex-col sm:flex-row lg:flex-row gap-2 lg:gap-0 lg:items-center sm:justify-between lg:justify-between my-25`}>
+            <Flex className={`flex-col sm:flex-row md:flex-col lg:flex-row gap-2 lg:gap-0 lg:items-center sm:justify-between lg:justify-between my-25`}>
               <Flex className={`items-center`}>
                 <div className="w-30 h-30 mr-11">
                   <img src={proimg} alt="img" className="w-full h-full"></img>

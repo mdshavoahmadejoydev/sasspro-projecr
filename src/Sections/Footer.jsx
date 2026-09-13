@@ -11,11 +11,11 @@ import Footerlist from '../Components/Footerlist'
 const Footer = () => {
   return (
     <>
-    <footer className="bg-seagreen md:pt-10 lg:pt-90 md:pb-10 lg:pb-75 overflow-x-hidden">
+    <footer className="bg-seagreen pt-6 md:pt-10 lg:pt-90 md:pb-10 lg:pb-75 overflow-x-hidden">
       <Container>
         <Flex className={`flex-col md:w-screen lg:w-auto gap-6 lg:gap-0 md:flex-row lg:flex-row`}>
           <div className="w-screen md:w-4/12 lg:w-4/12">
-            <Img src={Headerimg} alt="company logo" className={`w-148 h-6 px-4 lg:px-0`} />
+            <Img src={Headerimg} alt="company logo" className={`w-184 lg:w-148 h-6 px-4 lg:px-0`} />
             <Ptag
               className={`w-screen md:w-auto lg:w-362 px-4 lg:px-4 mt-27 mb-4 lg:mb-35 !text-offwhite/80 px-4`}
               content={`Orem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst augue amet, luctus quis gravida nulla netus ut platea.`}
