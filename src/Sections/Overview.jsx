@@ -12,7 +12,7 @@ import Container from '../Components/Container'
 
 const Overview = () => {
   return (
-    <section className="bg-lightgray pt-6 lg:pt-100 pb-8 lg:pb-75">
+    <section className="bg-lightgray pt-6 lg:pt-100 pb-8 lg:pb-75 overflow-x-hidden">
       <Title
         content={`All product work with several devices.`}
         className={`w-auto lg:w-368 m-auto text-center mb-3 lg:mb-25 px-4 lg:px-0`}
@@ -26,13 +26,13 @@ const Overview = () => {
           <Flex
             className={`justify-center gap-3 lg:gap-5 mb-6 lg:mb-56 lg:w-auto`}
           >
-            <Img src={Mcstore} className={`w-20 lg:w-32  lg:h-10`} />
-            <Img src={Appstore} className={`w-20 lg:w-32  lg:h-10`} />
+            <Img src={Mcstore} className={`w-20 sm:w-24 lg:w-32  lg:h-10`} />
+            <Img src={Appstore} className={`w-20 sm:w-24 lg:w-32  lg:h-10`} />
           </Flex>
           <Img
             src={Overviewimg}
             alt={`img`}
-            className={`w-[80vw] lg:w-1145 lg:h-760 mx-auto`}
+            className={`w-[80vw] md:w-[70vw] lg:w-1145 lg:h-760 mx-auto`}
           />
         </div>
       </Container>

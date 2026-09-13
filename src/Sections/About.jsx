@@ -18,10 +18,10 @@ const About = () => {
     <section className='relative overflow-hidden'>
       <div className='absolute -z-10 -inset-0.5 bg-[rgb(13,85,76)] [clip-path:polygon(0%_0%,100%_0%,100%_70%)] '></div>
 
-      <Container className={`bg-offwhite lg:p-50 lg:mb-100  shadow-xl`}>
+      <Container className={`bg-offwhite md:pt-10 lg:pt-0 lg:p-50 lg:mb-100  shadow-xl`}>
         <Flex className={`w-screen px-4 lg:px-0 lg:pt-0 text-center lg:text-start lg:w-auto flex-col lg:flex-row lg:justify-between lg:items-center`}>
           <div>
-            <Ptag content={`Who we are`} className={`!font-bold !text-sm !text-primary font-raleway pt-5 lg:pt-0 lg:mb-17`}/>
+            <Ptag content={`Who we are`} className={`!font-bold !text-sm md:!text-xl !text-primary font-raleway pt-5 lg:pt-0 md:mb-4 lg:mb-17`}/>
             <Title className={`w-auto lg:w-750`} content={`More than 5,000 users around the world are already using STDEV actively`} />
           </div>
           <div>

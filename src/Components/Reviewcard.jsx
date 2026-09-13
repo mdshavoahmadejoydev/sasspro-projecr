@@ -9,13 +9,13 @@ const Reviewcard = ({des, src, name, proff, className}) => {
   return (
     <>
       <div>
-        <div className={`w-314 bg-offwhite px-31 pt-60 pb-35 rounded-md relative ${className} `}>
-          <Ptag content={des} className={`w-242 font-roboto !text-olive`}/>
+        <div className={`w-[90vw] md:w-314 lg:w-314 bg-offwhite px-31 pt-60 pb-35 rounded-md relative ${className} `}>
+          <Ptag content={des} className={`lg:w-242  text-center font-roboto !text-olive`}/>
           
             <Flex className={`items-center mt-25`}>
             <Img src={src} alt={`img`} className={`w-50 h-50 rounded-full`} />
               <div className='ml-4'>
-                <p className='text-lg font-semibold text-seagreen mb-2'>{name}</p>
+                <p className='text-lg text-start font-semibold text-seagreen mb-1 lg:mb-2'>{name}</p>
                 <p className='text-sm font-normal text-olive'>{proff}</p>
               </div>
             </Flex>

@@ -15,7 +15,7 @@ import Footer from './Sections/Footer'
 const App = () => {
   return (
     <>
-      <Header/>
+      {/* <Header/> */}
       <Herro />
       <About/>
       <Industry />

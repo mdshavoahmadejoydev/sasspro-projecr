@@ -9,7 +9,7 @@ import Flex from "../Components/Flex";
 const herro = () => {
   return (
     <div>
-      <section className="bg-headerbg lg:relative overflow-hidden  py-10 lg:py-150">
+      <section className="bg-headerbg lg:relative overflow-x-hidden  py-10 lg:py-150">
         <Container className={`flex justify-between`}>
           <Flex className={`flex-col lg:flex-row`}>
             <div className="w-screen px-4 lg:px-0 text-center lg:text-start lg:w-1/2">
@@ -30,18 +30,18 @@ const herro = () => {
                 className={`font-roboto w-auto lg:w-552 mb-25`}
                 content="adaptable digital solutions that satisfy the needs of today and unlock the opportunities of tomorrow."
               />
-              <div className="h-9 mx-auto w-320 lg:w-full lg:h-56 relative mt-11">
+              <div className="h-9 md:h-10 mx-auto w-320 sm:w-454 md:w-578 lg:w-full lg:h-56 relative mt-11">
                 <input
                   type="text"
                   placeholder=""
                   className="w-full h-full outline-none text-2xl font-raleway  font-semibold px-4 rounded-md text-olive"
                 />
-                <button className="bg-primary px-3 lg:px-6 py-2 lg:py-4 rounded-r-md text-sm lg:text-base font-raleway text-offwhite font-semibold absolute top-0 right-0">
+                <button className="bg-primary px-3 lg:px-6 py-2 md:py-2.5 lg:py-4 rounded-r-md text-sm lg:text-base font-raleway text-offwhite font-semibold absolute top-0 right-0">
                   Request for Demo
                 </button>
               </div>
             </div>
-            <div className="lg:w-1/2 pt-4 lg:pt-0">
+            <div className="lg:w-1/2 pt-4 md:pt-8 lg:pt-0">
               <Img
                 src={Bennerimg}
                 alt="benner img"

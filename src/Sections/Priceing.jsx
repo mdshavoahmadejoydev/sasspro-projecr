@@ -13,7 +13,7 @@ const Priceing = () => {
   let [change, setChange] = useState(true)
 
   return (
-    <section className="pt-10 lg:pt-100 pb-8 lg:pb-75">
+    <section className="pt-10 lg:pt-100 pb-8 lg:pb-75 overflow-x-hidden">
       <Title content={`Affordable Pricing`} className={`text-center`} />
       <Container>
         <div>
@@ -29,7 +29,7 @@ const Priceing = () => {
             </button>
             <p className="font-roboto font-normal test-lg">Annualy</p>
           </Flex>
-          <Flex className={`w-screen lg:w-auto flex-col gap-6 lg:flex-row items-center lg:justify-between flex-wrap`}>
+          <Flex className={`w-screen lg:w-auto flex-col gap-6 md:flex-row lg:flex-row items-center md:justify-center lg:justify-between flex-wrap`}>
             {change ? (
               <>
                 <Pricingcard
