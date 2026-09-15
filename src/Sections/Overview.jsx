@@ -22,7 +22,7 @@ const Overview = () => {
         className={`font-roboto w-auto lg:w-454 text-center !text-olive m-auto mb-4 lg:mb-35 px-4 lg:px-0`}
       />
       <Container>
-        <div className='w-screen px-4 lg:px-0 lg:w-auto'>
+        <div className='w-full px-4 lg:px-0 lg:w-auto'>
           <Flex
             className={`justify-center gap-3 lg:gap-5 mb-6 lg:mb-56 lg:w-auto`}
           >
@@ -32,7 +32,7 @@ const Overview = () => {
           <Img
             src={Overviewimg}
             alt={`img`}
-            className={`w-[80vw] md:w-[70vw] lg:w-1145 lg:h-760 mx-auto`}
+            className={`w-4/5 md:w-[70vw] lg:w-1145 lg:h-760 mx-auto`}
           />
         </div>
       </Container>

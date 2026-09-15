@@ -12,7 +12,7 @@ const herro = () => {
       <section className="bg-headerbg lg:relative overflow-x-hidden  py-10 lg:py-150">
         <Container className={`flex justify-between`}>
           <Flex className={`flex-col lg:flex-row`}>
-            <div className="w-screen px-4 lg:px-0 text-center lg:text-start lg:w-1/2">
+            <div className="w-full px-4 lg:px-0 text-center lg:text-start lg:w-1/2">
               <Ptag
                 className={`font-raleway !font-bold !text-lg`}
                 content="Business & Technologies"
@@ -45,7 +45,7 @@ const herro = () => {
               <Img
                 src={Bennerimg}
                 alt="benner img"
-                className={`w-[80vw] mx-auto lg:w-755 lg:h=537 lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:left-[53%]`}
+                className={`w-4/5 mx-auto lg:w-755 lg:h=537 lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:left-[53%]`}
               />
             </div>
           </Flex>

@@ -9,7 +9,7 @@ const Reviewcard = ({des, src, name, proff, className}) => {
   return (
     <>
       <div>
-        <div className={`w-[90vw] md:w-314 lg:w-314 bg-offwhite px-31 pt-60 pb-35 rounded-md relative ${className} `}>
+        <div className={`w-[90%] mx-auto md:w-314 lg:w-314 bg-offwhite px-31 pt-60 pb-35 rounded-md relative ${className} `}>
           <Ptag content={des} className={`lg:w-242  text-center font-roboto !text-olive`}/>
           
             <Flex className={`items-center mt-25`}>

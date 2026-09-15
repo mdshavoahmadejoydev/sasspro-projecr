@@ -17,7 +17,7 @@ const Priceing = () => {
       <Title content={`Affordable Pricing`} className={`text-center`} />
       <Container>
         <div>
-          <Flex className={`w-screen lg:w-auto justify-center gap-x-25 items-center my-35`}>
+          <Flex className={`w-full lg:w-auto justify-center gap-x-25 items-center my-35`}>
             <p className="font-roboto font-normal test-lg">Monthly</p>
             <button
               onClick={() => setChange(!change)}
@@ -29,7 +29,7 @@ const Priceing = () => {
             </button>
             <p className="font-roboto font-normal test-lg">Annualy</p>
           </Flex>
-          <Flex className={`w-screen lg:w-auto flex-col gap-6 md:flex-row lg:flex-row items-center md:justify-center lg:justify-between flex-wrap`}>
+          <Flex className={`w-full lg:w-auto flex-col gap-6 md:flex-row lg:flex-row items-center md:justify-center lg:justify-between flex-wrap`}>
             {change ? (
               <>
                 <Pricingcard
@@ -76,29 +76,6 @@ const Priceing = () => {
 
             {/*  */}
           </Flex>
-
-          {/* <div className="bg-lightgray rounded-xl pt-50 px-31 pb-44 w-366">
-            <p className="font-raleway text-22 font-bold text-seagreen pb-11">
-              Free Plan
-            </p>
-            <strong className="font-inter font-bold text-5xl text-seagreen">
-              $0{" "}
-            </strong>{" "}
-            <span className="font-roboto text-base font-semibold">
-              / monthly
-            </span>
-            <div className="border-2 border-b-olive/20 mt-35 mb-35"></div>
-            <Flex className={`flex-col gap-27`}>
-              <Pricingcarditem text={`Access to editing all blocks`}/>
-              <Pricingcarditem text={`Editing blocks together`}/>
-              <Pricingcarditem text={`Access to all premium icons`}/>
-              <Pricingcarditem text={`A dedicated domain`}/>
-              
-            </Flex>
-            <Button content={`Try for Free`} hover={true} className={`mt-35`}/>
-          </div> */}
-
-          <Flex />
         </div>
       </Container>
     </section>

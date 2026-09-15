@@ -19,7 +19,7 @@ const Industry = () => {
     <section className='overflow-x-hidden'>
       <Title content={`Industries in focus`} className={`text-center mb-6 lg:mb-56`}/>
       <Container className={`pb-14 lg:pb-100`}>
-        <Flex className={`w-[100vw] sm:auto lg:w-auto flex-col items-center sm:justify-center md:flex-row lg:flex-row md:flex-wrap lg:flex-wrap lg:justify-center gap-9`}>
+        <Flex className={`w-full sm:auto lg:w-auto flex-col items-center sm:justify-center md:flex-row lg:flex-row md:flex-wrap lg:flex-wrap lg:justify-center gap-9`}>
           <Indistrycard src={Industryimg1} title={`FinTech`} des={`Psum dolor sit amet, consectetur adipiscing elit. Nisi, maecenas orci sit pellentesque eget.`}/>
           
           <Indistrycard src={Industryimg2} title={`Telecom`} des={`Psum dolor sit amet, consectetur adipiscing elit. Nisi, maecenas orci sit pellentesque eget.`}/>
@@ -31,12 +31,6 @@ const Industry = () => {
           <Indistrycard src={Industryimg2} title={`eLearning`} des={`Psum dolor sit amet, consectetur adipiscing elit. Nisi, maecenas orci sit pellentesque eget.`}/>
 
           <Indistrycard src={Industryimg1} title={`Artificial Intelligence`} des={`Psum dolor sit amet, consectetur adipiscing elit. Nisi, maecenas orci sit pellentesque eget.`}/>
-
-
-
-          
-
-
         </Flex>
       </Container>
     </section>

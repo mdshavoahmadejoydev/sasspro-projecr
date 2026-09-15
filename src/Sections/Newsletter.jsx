@@ -11,8 +11,8 @@ const Newsletter = () => {
   return (
     <section className='py-10 lg:py-106 overflow-x-hidden'>
       <Container>
-        <Flex className={`flex-col lg:flex-row items-center w-screen lg:w-auto lg:justify-between`}>
-          <div className='w-screen px-4 text-center lg:text-start lg:px-0 lg:w-3/5'>
+        <Flex className={`flex-col lg:flex-row items-center w-full lg:w-auto lg:justify-between`}>
+          <div className='w-full px-4 text-center lg:text-start lg:px-0 lg:w-3/5'>
             <p className='text-sm font-bold font-raleway text-primary'>OUR NEWSLETTER</p>
             <Title content={`Stay up to date`} className={`mt-1 mb-2 lg:mb-27`}/>
             <Ptag content={`With our weekly newsletter you will stay informed about important informationin the HR world, new Corona work guidelines.`} className={`lg:w-552 font-roboto !text-olive mb-4 lg:mb-50`}/>
