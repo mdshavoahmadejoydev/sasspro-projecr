@@ -1,32 +1,32 @@
 import React from 'react'
-import Header from './Sections/Header'
-import Herro from './Sections/Herro'
-import About from './Sections/About'
-import Industry from './Sections/Industry'
-import Overview from './Sections/Overview'
-import Engage from './Sections/Engage'
-import Workwith from './Sections/Workwith'
-import Reviews from './Sections/Reviews'
-import Newsletter from './Sections/Newsletter'
-import Article from './Sections/Article'
-import Priceing from './Sections/Priceing'
-import Footer from './Sections/Footer'
+
+import {
+  createRoutesFromElements,
+  createBrowserRouter,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
+import RootLayout from './Sections/RootLayout';
+import { Home } from './pages/Home';
+import Services from './Pages/Services';
+import Blog from './Pages/Blog';
+import Contact from './Pages/Contact';
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<RootLayout />}>
+      <Route path="/" element={<Home />}></Route>
+      <Route path="/services" element={<Services />}></Route>
+      <Route path="/blog" element={<Blog />}></Route>
+      <Route path="/contact" element={<Contact />}></Route>
+    </Route>
+  )
+);
 
 const App = () => {
   return (
     <>
-      <Header/>
-      <Herro />
-      <About/>
-      <Industry />
-      <Overview />
-      <Engage />
-      <Workwith/>
-      <Priceing />
-      <Reviews/>
-      <Newsletter/>
-      <Article/>
-      <Footer/>
+      <RouterProvider router={router} />
     </>
   )
 }
